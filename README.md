@@ -18,4 +18,5 @@
 
 ## 更多API及详细说明
 
-https://bak.yantuz.cn:8000/466.html
+
+http://mp.weixin.qq.com/s__biz=MzkzNDI2MzYwNw==&mid=2247484261&idx=1&sn=9a52f6016bcb2c27562641692d018fe4&chksm=c2bead3df5c9242b1091d9d6169f1d10377c2d210081486aec164dfcadbecb6a637531a5b3b8#rd
