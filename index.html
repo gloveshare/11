@@ -6,7 +6,7 @@
 <!--
 loopy();
 function loopy() {
-var sWord = prompt("你好，[nickname] （公众号：glove科技 回复：访问密码）");
+var sWord = prompt("你好，请输入密码（公众号：glove科技 回复：访问密码）：");
 var password = "0107";
 var isCancle = false;
 while(sWord!=password){
@@ -14,7 +14,7 @@ if(sWord==null){
 isCancle = true;
 break;
 }else{
-sWord = prompt("密码输入错误，请重新输入密码。（公众号：glove科技 回复：访问密码）");
+sWord = prompt("密码输入错误，请重新输入密码（公众号：glove科技 回复：访问密码）：");
 }
 }
 if(!isCancle){
