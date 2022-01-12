@@ -2,17 +2,45 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-		<script language="JavaScript">
-			while(true) {
-				var password = "";
-				password = prompt('请输入密码 (公众号：glove科技 回复：访问密码):', '');
-				if(password != '0107') {
-					alert("密码不正确,无法进入本站!!");
-				} else {
-					break;
-				}
-			}
-		</script>
+<SCRIPT language=JavaScript> 
+ 
+function password() { 
+ 
+var testV = 1; 
+ 
+var pass1 = prompt('请输入密码 (公众号：glove科技 回复：访问密码',''); 
+ 
+while (testV < 3) { 
+ 
+if (!pass1) 
+ 
+history.go(-1); 
+ 
+if (pass1 == "0107") { 
+ 
+alert('密码正确!'); 
+ 
+break; 
+ 
+} 
+ 
+testV+=-1; 
+ 
+var pass1 = prompt('密码错误!请重新输入:'); 
+ 
+} 
+ 
+if (pass1!="password" & testV ==3) 
+ 
+history.go(-1); 
+ 
+return " "; 
+ 
+} 
+ 
+document.write(password()); 
+ 
+</SCRIPT>
 </head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
